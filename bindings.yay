@@ -1,0 +1,29 @@
+# this is a comment
+
+# LEFTTHUMBSTICKY = MOUSEDOWN
+# _RSt__ICKx_ = _mOUS_ERIgHT_
+
+# mouse movement
+DPADUP    = MOUSEUP
+DOWN  = MOUSEDOWN
+RIGHT = MOUSERIGHT
+LEFT  = MOUSELEFT
+
+# mouse clicks
+LBUMPER = LEFTCLICK
+RBUMPER = RIGHTCLICK
+
+# arrows
+Y = UPARROW
+X = LEFTARROW
+B = RIGHTARROW
+A = DOWNARROW
+
+DEAD_ZONE = 0.25
+THRESHOLD = 0.1
+STICK_SCALING = LINEAR # May also be CONSTANT, SQUARED or CUBED
+MOUSE_SENSITIVITY = 1.0
+
+# mouse clicks: fire input once.
+# key downs: fire input continuously on a timer
+# mouse movement: fire input continuously, without a timer.
